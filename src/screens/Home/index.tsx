@@ -64,8 +64,7 @@ export function Home() {
 
   useFocusEffect(
     useCallback(() => {
-      // loadData();
-      AsyncStorage.removeItem("@savepass:logins");
+      loadData();
     }, [])
   );
 
